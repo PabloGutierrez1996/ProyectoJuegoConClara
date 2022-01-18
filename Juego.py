@@ -2,9 +2,7 @@ import pygame
 import random
 import sys
 
-<<<<<<< Updated upstream
 pygame.init()
-=======
 #Definiciones
 WIDTH = 800
 HEIGHT = 600
@@ -32,7 +30,6 @@ clock = pygame.time.Clock()
 
 #Eventos del juego (flechas)
 #abajo = keydown, izq = k_left, der = k_right, arriba = k_up. todo en mayúsculas
->>>>>>> Stashed changes
 
 WIDTH = 800
 HEIGHT = 600
