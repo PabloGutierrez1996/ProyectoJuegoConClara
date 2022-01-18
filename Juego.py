@@ -1,6 +1,8 @@
+
 import pygame
 import random
 import sys
+
 
 pygame.init()
 #Definiciones
@@ -30,6 +32,3 @@ clock = pygame.time.Clock()
 
 #Eventos del juego (flechas)
 #abajo = keydown, izq = k_left, der = k_right, arriba = k_up. todo en mayúsculas
-
-WIDTH = 800
-HEIGHT = 600
