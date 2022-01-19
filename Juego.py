@@ -29,6 +29,6 @@ consola = pygame.display.set_mode((WIDTH,HEIGHT))
 
 game_over = False
 clock = pygame.time.Clock()
-
+#quiero ver si funciona bien esto
 #Eventos del juego (flechas)
 #abajo = keydown, izq = k_left, der = k_right, arriba = k_up. todo en mayúsculas
