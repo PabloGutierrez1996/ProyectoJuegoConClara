@@ -69,12 +69,12 @@ while not game_over:
 		game_over = True
 
 #Dibujar enemigo
-	pygame.draw.rect(ventana, color_azul,
-			(enemigo_pos[0],enemigo_pos[1],
-			enemigo_size, enemigo_size))
+	pygame.draw.rect(consola, color_azul,
+			(pos_enemigo[0],pos_enemigo[1],
+			tam_enemigo, tam_enemigo))
 	#Dibujar jugador
-	pygame.draw.rect(ventana, color_rojo,
-			(jugador_pos[0],jugador_pos[1],
-			jugador_size,jugador_size))
+	pygame.draw.rect(consola, color_verde,
+			(pos_juga[0],pos_juga[1],
+			tam_juga,tam_juga))
 	clock.tick(70)
 	pygame.display.update()
