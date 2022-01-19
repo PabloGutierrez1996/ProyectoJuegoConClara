@@ -30,7 +30,6 @@ consola = pygame.display.set_mode((ANCHO,ALTO))
 game_over = False
 clock = pygame.time.Clock()
 #quiero ver si funciona bien esto
-
 #Funciones de colicion con el enemigo
 def detectar_colision(pos_juga,pos_enemigo):
 	jx = pos_juga[0]
@@ -69,4 +68,13 @@ while not game_over:
 	if detectar_colision(pos_juga,pos_enemigo):
 		game_over = True
 
-
+#Dibujar enemigo
+	pygame.draw.rect(ventana, color_azul,
+			(enemigo_pos[0],enemigo_pos[1],
+			enemigo_size, enemigo_size))
+	#Dibujar jugador
+	pygame.draw.rect(ventana, color_rojo,
+			(jugador_pos[0],jugador_pos[1],
+			jugador_size,jugador_size))
+	clock.tick(70)
+	pygame.display.update()
